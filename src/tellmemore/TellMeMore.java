@@ -22,7 +22,7 @@ public class TellMeMore extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         
         Scene scene = new Scene(root);
-        
+        stage.setTitle("Tell Me More");
         stage.setScene(scene);
         stage.show();
     }

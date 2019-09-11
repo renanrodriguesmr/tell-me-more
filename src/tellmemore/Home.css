@@ -1,0 +1,9 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    .titled-pane > .title{
+       -fx-background-color: blue;
+    }
+}
