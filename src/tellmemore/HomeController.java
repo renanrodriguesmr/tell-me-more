@@ -29,6 +29,7 @@ public class HomeController implements Initializable {
     @FXML
     private void goToAlunoPage(ActionEvent event) {
         System.out.println("AAluno");
+        Utils.loadView("/tellmemore/aluno/view/login.fxml", getClass());
     }
     
     @FXML

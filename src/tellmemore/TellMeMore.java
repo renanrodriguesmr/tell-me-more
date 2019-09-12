@@ -17,14 +17,20 @@ import javafx.stage.Stage;
  */
 public class TellMeMore extends Application {
     
+    private static Scene mainScene;
+     
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
         
-        Scene scene = new Scene(root);
+        mainScene = new Scene(root);
         stage.setTitle("Tell Me More");
-        stage.setScene(scene);
+        stage.setScene(mainScene);
         stage.show();
+    }
+    
+    public static Scene getMainScene() {
+        return mainScene;
     }
 
     /**
