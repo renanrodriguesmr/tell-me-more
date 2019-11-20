@@ -15,6 +15,7 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Spinner;
 import javafx.scene.control.SpinnerValueFactory;
 import javafx.scene.control.TextField;
+import tellmemore.Utils;
 
 /**
  * FXML Controller class
@@ -58,13 +59,8 @@ public class AdicionarQuestaoController implements Initializable {
         String resposta = (String) respostaInput.getText();
         int dificuldade = (int) dificuldadeSpinner.getValue();
 
-        
-        System.out.println(tema);
-        System.out.println(enunciado);
-        System.out.println(resposta);
-        System.out.println(dificuldade);
-
-
+        Utils.loadView("/tellmemore/view/AdicionarQuestao2.fxml", getClass());
+          
         
     }
     
