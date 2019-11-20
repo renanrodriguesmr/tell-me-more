@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tellmemore.controller.CriarSessao2Controller">
+    <AnchorPane prefHeight="400.0" prefWidth="600.0">
+       <children>
+          <Label layoutX="228.0" layoutY="92.0" prefHeight="32.0" prefWidth="300.0" fx:id="mensagem" />
+          <Button onAction="#confirmarSessao" layoutX="268.0" layoutY="175.0" mnemonicParsing="false" text="Confirma" />
+       </children>
+    </AnchorPane>
+</AnchorPane>

@@ -21,7 +21,7 @@ public class TellMeMore extends Application {
      
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("view/MainMenu.fxml"));
         
         mainScene = new Scene(root);
         stage.setTitle("Tell Me More");
@@ -31,6 +31,14 @@ public class TellMeMore extends Application {
     
     public static Scene getMainScene() {
         return mainScene;
+    }
+    
+    public static void setMainScene(Parent root) {
+        Stage stage = (Stage) getMainScene().getWindow();
+        mainScene = new Scene(root);
+        stage.setTitle("Tell Me More");
+        stage.setScene(mainScene);
+        stage.show();
     }
 
     /**

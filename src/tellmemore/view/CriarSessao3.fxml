@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tellmemore.controller.CriarSessao3Controller">
+    <children>
+       <Label layoutX="281.0" layoutY="74.0" prefHeight="32.0" prefWidth="200.0" text="Partida" />
+       <Label layoutX="244.0" layoutY="184.0" prefHeight="32.0" prefWidth="200.0" text="Aguardando alunos..." />
+       <Button onAction="#iniciarPartida" layoutX="256.0" layoutY="293.0" mnemonicParsing="false" text="Iniciar partida" />
+        <TableView editable="true" layoutX="508.0" layoutY="14.0" prefHeight="200.0" prefWidth="400.0" fx:id="alunosTable">
+       </TableView>
+       <Button onAction="#refresh" layoutX="544.0" layoutY="227.0" mnemonicParsing="false" text="Refresh" />
+    </children>  
+</AnchorPane>
+    
