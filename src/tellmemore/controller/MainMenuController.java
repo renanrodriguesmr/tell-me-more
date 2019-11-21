@@ -38,5 +38,10 @@ public class MainMenuController implements Initializable {
         Utils.loadView("/tellmemore/view/AdicionarQuestao.fxml", getClass());
     }
     
+    @FXML
+    private void goToConsultaResultado(ActionEvent event) throws IOException {
+        Utils.loadView("/tellmemore/view/ConsultarResultado.fxml", getClass());
+    }
+    
     
 }

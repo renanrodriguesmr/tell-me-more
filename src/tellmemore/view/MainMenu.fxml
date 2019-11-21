@@ -12,7 +12,7 @@
          <children>
             <Button layoutX="234.0" layoutY="74.0" mnemonicParsing="false" text="Entrar em uma sessão" />
             <Button onAction="#goToCriarSessao" layoutX="261.0" layoutY="141.0" mnemonicParsing="false" text="Criar sessão" />
-            <Button layoutX="248.0" layoutY="211.0" mnemonicParsing="false" text="Consultar sessão" />
+            <Button onAction="#goToConsultaResultado" layoutX="248.0" layoutY="211.0" mnemonicParsing="false" text="Consultar Resultado" />
             <Button onAction="#goToAddQuestao"  layoutX="257.0" layoutY="274.0" mnemonicParsing="false" text="Criar questão" />
          </children>
       </AnchorPane>

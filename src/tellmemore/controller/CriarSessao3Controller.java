@@ -42,7 +42,7 @@ public class CriarSessao3Controller implements Initializable {
     }
     @FXML
     private void refresh(ActionEvent event) throws IOException {
-        User user    = new User("John", "OK");
+        User user = new User("John", "OK");
         alunosTable.getItems().addAll(user);
         
     }
